@@ -64,7 +64,7 @@ export default function Counter() {
   const style = {
     fontSize: '1.5em',
     marginBottom: '0.3em',
-    color: 'royalblue', /* STEP 2 */
+    color: 'royalblue', /* STEP 2: Look into using a ternary { option & 'option 1' : 'option 2' } */
   };
 
   return (
